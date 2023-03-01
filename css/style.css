@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* Import des styles pour les composants */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/* Style global pour le body */
+body {
+font-family: "Helvetica Neue", Arial, sans-serif;
+font-size: 18px;
+margin: 0;
+}
+
+/* Style pour les titres */
+h1, h2, h3 {
+font-family: "Open Sans", sans-serif;
+font-weight: bold;
+}
+
+/* Style pour les liens */
+a {
+text-decoration: none;
+color: #007bff;
+}
